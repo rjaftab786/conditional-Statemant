@@ -34,12 +34,12 @@ public class Loops {
 
         // }
 
-        int i = 12;
+    //     int i = 12;
 
-        do {
+    //     do {
 
-            System.out.println("aftab");
+    //         System.out.println("aftab");
 
-        } while (i < 11);
+    //     } while (i < 11);
     }
 }
