@@ -11,6 +11,9 @@ public class ExeHollowPatt {
 
         // outer loops
 
+        // no of rows =n
+        // no of column = m
+
         for (int i = 1; i <= n; i++) {
 
             // inner loops
@@ -19,8 +22,7 @@ public class ExeHollowPatt {
 
                 if (i == 1 || j == 1 || i == n || j == m) {
                     System.out.print("*");
-                }
-                else {
+                } else {
                     System.out.print(" ");
                 }
 
