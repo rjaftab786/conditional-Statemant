@@ -1,13 +1,17 @@
-public class InvertedHalfPyramid {
+import java.util.*;
+
+public class ExeInvertedPyramid {
     public static void main(String[] args) {
-        int n = 4;
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
 
         // outer loop
-        // i = row j= column
 
         for (int i = n; i >= 1; i--) {
 
-            // inner loop
+            // for inner loop
 
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
@@ -15,5 +19,4 @@ public class InvertedHalfPyramid {
             System.out.println();
         }
     }
-
 }
