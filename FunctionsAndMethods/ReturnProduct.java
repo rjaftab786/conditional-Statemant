@@ -2,9 +2,11 @@ import java.util.*;
 
 public class ReturnProduct {
 
-    public static int returnProduct(int a, int b) {
-        int returnProduct = a * b;
-        return returnProduct;
+    public static int calculateProduct(int a, int b) {
+        // int returnProduct = a * b;
+        // return returnProduct;
+        return a * b;
+
     }
 
     public static void main(String[] args) {
@@ -14,9 +16,11 @@ public class ReturnProduct {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        returnProduct(a, b);
+        // returnProduct(a, b);
 
-        System.out.println(returnProduct(a, b));
+        // System.out.println(returnProduct(a, b));
+
+        System.out.println("Product of 2 numbers is : " + calculateProduct(a, b));
 
     }
 }
