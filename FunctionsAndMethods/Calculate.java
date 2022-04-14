@@ -15,7 +15,7 @@ public class Calculate {
         int b = sc.nextInt();
 
         int sum = calculateSum(a, b);
-        System.out.println(sum);
+        System.out.println("Sum of 2 numbers " + sum);
 
     }
 
